@@ -4,4 +4,33 @@
     margin-right: 20px;
 
 }
+.yukari-orta{
+    width:100%;
+    height: 250px;
+    background: turquoise;
+}
+.kayit{
+    width: 14%;
+    height: 200px;
+    background-color: #407ca7;
+    float: right;
+    margin-right: 50px;
+}
+.ilan{
+    float: left;
+    width: 450px;
+    height: 147px;
+    background-color: #bf1c6f;
+    margin-left: 30%;
+    margin-top: 49px;
+}
+.ilan2{
+    
+        margin-left: 10%;
+        margin-top: 9%;
+        width: 80%;
+        height: 42%;
+        
+    
 
+}
