@@ -130,7 +130,61 @@ function basla(){
 
 
 }
+var user=[
+    {
+        nick:'furkan',
+        soyad:'yıldız',
+        sifre:'987asdfg'
+    },
+    {
+        nick:'muhammed',
+        soyad:'bayraktar',
+        sifre:'987asdfg'
+    },
+    {
+        nick:'yasemin',
+        soyad:'genç',
+        sifre:'987asdfg'
+    },
+    {
+        nick:'ibrahim',
+        soyad:'ceylan',
+        sifre:'987asdfg'
+    },
+    {
+        nick:'osman',
+        soyad:'gedik',
+        sifre:'987asdfg'
+    },
+    {
+        nick:'kerim',
+        soyad:'yaman',
+        sifre:'987asdfg'
+    }
+];
+   
+function girisyap(){
+     var tarih=new Date()
+	var yil=tarih.getFullYear();
+	var ay=tarih.getMonth();
+	var gun=tarih.getDay();
+    var myInner = '';
+    var kullanici=document.getElementById('kullanici').value;
+    var sifre1=document.getElementById('sifre').value;
+    var bilgi=document.getElementById('girisyap1');
+    for (let index = 0; index < user.length; index++) {
+       if(kullanici==user[index].nick&&sifre1==user[index].sifre){
+        myInner=myInner+'<div> '+ user[index].nick +' <\div>';
+        myInner=myInner+'<br><div> '+ user[index].soyad +' <\div>';
+        myInner=myInner+gun+"/"+ay+"/"+yil;
+        bilgi.innerHTML = myInner;
+        $('.kayit').hide();
+       }
+       
 
+    }
+
+}
 
 
 

@@ -20,8 +20,8 @@
              <div  id="kayip2"class="btn btn-outline-success my-2 my-sm-0" type="submit">Ara</div>
              <div onclick="ara()" class="btn btn-outline-success my-2 my-sm-0" type="submit"><img src="magnifier.png" style="height: 20px; width: 20px;"></div>
            </form>
-          <div class="kayıt"> 
-            <button onclick="giris()"type="button" class="btn btn-info" style="width:150px; margin-left: 40px;">Giriş Yap</button><br>
+          <div id="girisyap1" class="kayıtt"> 
+            <button onclick="giris()"type="button" class="btn btn-info" style="width:150px; margin-left: 40px; margin-top:20px;">Giriş Yap</button><br>
             <button type="button" class="btn btn-success" style="margin-top:5px; margin-left:32%">Kayıt Ol</button>
           </div>
       </nav>
@@ -34,10 +34,10 @@
     </div>
    <div class="kayit">
     Kullanıcı Adı:<br>
-    <input type="text" name='kullanıcı' style="border-radius: 8px;"><br>Şifre:<br>
+    <input id="kullanici"type="text" name='kullanıcı' style="border-radius: 8px;"><br>Şifre:<br>
     
-    <input style="border-radius: 8px;" type="password" name="şifre">
-    <button type="button" class="btn btn-info" style="width:150px; margin-left: 5px; margin-top: 15px; margin-bottom: 7px;" style="border-radius: 8px;">Giriş Yap</button>  
+    <input id="sifre"style="border-radius: 8px;" type="password" name="şifre">
+    <button onclick="girisyap()" type="button" class="btn btn-info" style="width:150px; margin-left: 5px; margin-top: 15px; margin-bottom: 7px;" style="border-radius: 8px;">Giriş Yap</button>  
     <a href="" style="font-size: 14px;"><p>Şifremi Unuttum</p></a>
     <a href="" style="font-size: 14px;">Hesaba Erişimim Yok</a>
     
