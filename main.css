@@ -2,7 +2,8 @@
     width: 230px;
     height: 82px;
     margin-right: 3%;
-
+    border:1px solid black;
+    border-radius: 10px;
 }
 .yukari-orta{
     width:100%;
@@ -17,8 +18,9 @@
     float: right;
     margin-right: 3%;
     text-align: center;
-    border-radius: 10px;
-    border-color: black;
+    
+    
+    
 }
 .ilan{
     float: left;
@@ -85,4 +87,8 @@ margin-top: 5%;
     float: right;
     margin-right: 5%;
     margin-top: 60px;
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+
 }
