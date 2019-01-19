@@ -137,9 +137,10 @@ var user=[
         sifre:'987asdfg'
     },
     {
-        nick:'muhammed',
-        soyad:'bayraktar',
-        sifre:'987asdfg'
+        nick:'mami3213',
+        ad:'Muhammed',
+        soyad:'Bayraktar',
+        sifre:'aslan1905'
     },
     {
         nick:'yasemin',
@@ -174,10 +175,13 @@ function girisyap(){
     var bilgi=document.getElementById('girisyap1');
     for (let index = 0; index < user.length; index++) {
        if(kullanici==user[index].nick&&sifre1==user[index].sifre){
-        myInner=myInner+'<div> '+ user[index].nick +' <\div>';
-        myInner=myInner+'<br><div> '+ user[index].soyad +' <\div>';
-        myInner=myInner+gun+"/"+ay+"/"+yil;
+        myInner=myInner+ ' <div style="text-align: center; margin-top: 15px;">Hoşgeldin,<br><a href=""> '+ user[index].ad + ' ' +user[index].soyad +'</a>! <\div>';
+        
+        
+        
+        myInner=myInner+ '<button onclick="cikisyap()" type="button" class="btn btn-outline-danger" style="margin-top: 5px;">Çıkış Yap</button><br>';
         bilgi.innerHTML = myInner;
+        
         $('.kayit').hide();
        }
        
@@ -188,6 +192,14 @@ function girisyap(){
 
 
 
+function cikisyap(){
+    var myInner= '';
+    var cikis = document.getElementById('girisyap1');
+    myInner = myInner + ' <button onclick="giris()"type="button" class="btn btn-info" style="width:150px; margin-left: 40px; margin-top:20px;">Giriş Yap</button><br><button type="button" class="btn btn-success" style="margin-top:5px; margin-left:32%">Kayıt Ol</button>'
+    cikis.innerHTML = myInner;        
+    
+
+}
 
 var sayacara=0;
 var sayacgiris=0;

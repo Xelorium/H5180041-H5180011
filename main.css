@@ -3,12 +3,13 @@
     height: 120px;
     margin-right: 3%;
     border:1px solid black;
-    border-radius: 10px;
+    border-radius: 8px;
+    
 }
 .yukari-orta{
     width:100%;
     height: 200px;
-    background: darkblue;
+    background-image: url("bg.png");
     
 }
 .kayit{
@@ -26,7 +27,7 @@
     float: left;
     width: 450px;
     height: 147px;
-    background-color: #dc3545;
+    background-color: rgba(35, 35, 83, 0.712);
     margin-left: 37%;
     margin-top: 29px;
     border-radius: 10px;
@@ -41,7 +42,7 @@
 }
 .orta{
     width: 100%;
-    height: 1750px;
+    height: 1900px;
 }
 .alt{
     position: fixed;
@@ -89,6 +90,6 @@ margin-top: 5%;
     margin-top: 60px;
     position: -webkit-sticky;
   position: sticky;
-  top: 0;
+  top: 80px;
 
 }
