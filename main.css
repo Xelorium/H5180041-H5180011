@@ -75,7 +75,7 @@ margin-top: 5%;
 }
 
 .list-group a{
-    color: red;
+   
 }
 
 
@@ -89,7 +89,7 @@ margin-top: 5%;
     margin-right: 5%;
     margin-top: 60px;
     position: -webkit-sticky;
-  position: sticky;
-  top: 80px;
+    position: sticky;
+    top: 80px;
 
 }

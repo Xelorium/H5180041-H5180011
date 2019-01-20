@@ -38,21 +38,21 @@ var kutu=[
     },
     {
         id:5,
-        resim: 'video.jpg',
-        baslik: 'OTHER 1',
-        bilgi:'8 yıllık video tasarım tecrübem var. Belirli şirketlerle de yıllarca çalıştım. Montajlar ve efektler konusunda uzmanım.',
-        fiyat: '220TL',
-        isim: 'Kazım Soylu',
-        soyisim: '09.01.2019'
+        resim: 'reklamcilik.jpg',
+        baslik: 'SİTE TANITIMI',
+        bilgi:'Pazarlama konusunda uzman biriyim. Sitelerin reklamını istenilen şekle göre yapabilirim. 5-6 gün içerisinde teslim ederim.',
+        fiyat: '310TL',
+        isim: 'Adnan Bektaş',
+        soyisim: '02.01.2019'
     },
     {
         id:6,
-        resim: 'video.jpg',
-        baslik: 'OTHER 2',
-        bilgi:'8 yıllık video tasarım tecrübem var. Belirli şirketlerle de yıllarca çalıştım. Montajlar ve efektler konusunda uzmanım.',
-        fiyat: '220TL',
-        isim: 'Kazım Soylu',
-        soyisim: '09.01.2019'
+        resim: 'ps.jpg',
+        baslik: 'PHOTOSHOP TASARIMLARI',
+        bilgi:'Fotoğrafçılık ve Photoshop üzerine yoğun bilgiye sahibim. İstediğiniz fotoğrafı editleyebilir ve tasarlayabilirim.',
+        fiyat: '95TL',
+        isim: 'Görkem Uysal',
+        soyisim: '29.12.2018'
     }
 ];
 function basla(){
@@ -63,8 +63,8 @@ function basla(){
     var myElem2 = document.getElementById("code");
     var myElem3 = document.getElementById("translate");
     var myElem4 = document.getElementById("video");
-    var myElem5 = document.getElementById("other1");
-    var myElem6 = document.getElementById("other2");
+    var myElem5 = document.getElementById("reklam");
+    var myElem6 = document.getElementById("photoshop");
     
     var myInner = '';
     var myInner2='';
@@ -78,7 +78,7 @@ function basla(){
     myInner = myInner + '<h5 class="card-title">' + kutu[0].baslik + '</h5>';
     myInner = myInner + '<p class="card-text">' + kutu[0].bilgi+ '</p>';
     myInner = myInner + '</div>';
-    myInner = myInner + '<ul class="list-group list-group-flush"><li class="list-group-item">' + kutu[0].isim+ '</li><li class="list-group-item">' + kutu[0].soyisim+ '</li><li class="list-group-item">' + kutu[0].fiyat+ '</li></ul>';
+    myInner = myInner + '<ul class="list-group list-group-flush"><li class="list-group-item">' + '<a href="">' + kutu[0].isim + '</a> </li><li class="list-group-item">' + kutu[0].soyisim+ '</li><li class="list-group-item">' + kutu[0].fiyat+ '</li></ul>';
     myInner = myInner + '<div class="card-body"><button type="button" class="btn btn-primary">İlana Git</button></div>';
     myElem.innerHTML = myInner;
 
@@ -87,7 +87,7 @@ function basla(){
     myInner2 = myInner2 + '<h5 class="card-title">' + kutu[1].baslik + '</h5>';
     myInner2 = myInner2 + '<p class="card-text">' + kutu[1].bilgi+ '</p>';
     myInner2 = myInner2 + '</div>';
-    myInner2 = myInner2 + '<ul class="list-group list-group-flush"><li class="list-group-item">' + kutu[1].isim+ '</li><li class="list-group-item">' + kutu[1].soyisim+ '</li><li class="list-group-item">' + kutu[1].fiyat+ '</li></ul>';
+    myInner2 = myInner2 + '<ul class="list-group list-group-flush"><li class="list-group-item">' + '<a href="">' + kutu[1].isim+ '</a> </li><li class="list-group-item">' + kutu[1].soyisim+ '</li><li class="list-group-item">' + kutu[1].fiyat+ '</li></ul>';
     myInner2 = myInner2 + '<div class="card-body"><button type="button" class="btn btn-primary">İlana Git</button></div>';
     myElem2.innerHTML = myInner2;
 
@@ -96,7 +96,7 @@ function basla(){
     myInner3 = myInner3 + '<h5 class="card-title">' + kutu[2].baslik + '</h5>';
     myInner3 = myInner3 + '<p class="card-text">' + kutu[2].bilgi+ '</p>';
     myInner3 = myInner3 + '</div>';
-    myInner3 = myInner3 + '<ul class="list-group list-group-flush"><li class="list-group-item">' + kutu[2].isim+ '</li><li class="list-group-item">' + kutu[2].soyisim+ '</li><li class="list-group-item">' + kutu[2].fiyat+ '</li></ul>';
+    myInner3 = myInner3 + '<ul class="list-group list-group-flush"><li class="list-group-item">' + '<a href="">' + kutu[2].isim+ '</a> </li><li class="list-group-item">' + kutu[2].soyisim+ '</li><li class="list-group-item">' + kutu[2].fiyat+ '</li></ul>';
     myInner3 = myInner3 + '<div class="card-body"><button type="button" class="btn btn-primary">İlana Git</button></div>';
     myElem3.innerHTML = myInner3;
 
@@ -105,7 +105,7 @@ function basla(){
     myInner4 = myInner4 + '<h5 class="card-title">' + kutu[3].baslik + '</h5>';
     myInner4 = myInner4 + '<p class="card-text">' + kutu[3].bilgi+ '</p>';
     myInner4 = myInner4 + '</div>';
-    myInner4 = myInner4 + '<ul class="list-group list-group-flush"><li class="list-group-item">' + kutu[3].isim+ '</li><li class="list-group-item">' + kutu[3].soyisim+ '</li><li class="list-group-item">' + kutu[3].fiyat+ '</li></ul>';
+    myInner4 = myInner4 + '<ul class="list-group list-group-flush"><li class="list-group-item">' + '<a href="">' + kutu[3].isim+ '</a> </li><li class="list-group-item">' + kutu[3].soyisim+ '</li><li class="list-group-item">' + kutu[3].fiyat+ '</li></ul>';
     myInner4 = myInner4 + '<div class="card-body"><button type="button" class="btn btn-primary">İlana Git</button></div>';
     myElem4.innerHTML = myInner4;
 
@@ -114,7 +114,7 @@ function basla(){
     myInner5 = myInner5 + '<h5 class="card-title">' + kutu[4].baslik + '</h5>';
     myInner5 = myInner5 + '<p class="card-text">' + kutu[4].bilgi+ '</p>';
     myInner5 = myInner5 + '</div>';
-    myInner5 = myInner5 + '<ul class="list-group list-group-flush"><li class="list-group-item">' + kutu[4].isim+ '</li><li class="list-group-item">' + kutu[4].soyisim+ '</li><li class="list-group-item">' + kutu[4].fiyat+ '</li></ul>';
+    myInner5 = myInner5 + '<ul class="list-group list-group-flush"><li class="list-group-item">' + '<a href="">' + kutu[4].isim+ '</a> </li><li class="list-group-item">' + kutu[4].soyisim+ '</li><li class="list-group-item">' + kutu[4].fiyat+ '</li></ul>';
     myInner5 = myInner5 + '<div class="card-body"><button type="button" class="btn btn-primary">İlana Git</button></div>';
     myElem5.innerHTML = myInner5;
 
@@ -123,7 +123,7 @@ function basla(){
     myInner6 = myInner6 + '<h5 class="card-title">' + kutu[5].baslik + '</h5>';
     myInner6 = myInner6 + '<p class="card-text">' + kutu[5].bilgi+ '</p>';
     myInner6 = myInner6 + '</div>';
-    myInner6 = myInner6 + '<ul class="list-group list-group-flush"><li class="list-group-item">' + kutu[5].isim+ '</li><li class="list-group-item">' + kutu[5].soyisim+ '</li><li class="list-group-item">' + kutu[5].fiyat+ '</li></ul>';
+    myInner6 = myInner6 + '<ul class="list-group list-group-flush"><li class="list-group-item">' + '<a href="">' + kutu[5].isim+ '</a> </li><li class="list-group-item">' + kutu[5].soyisim+ '</li><li class="list-group-item">' + kutu[5].fiyat+ '</li></ul>';
     myInner6 = myInner6 + '<div class="card-body"><button type="button" class="btn btn-primary">İlana Git</button></div>';
     myElem6.innerHTML = myInner6;
 
@@ -242,7 +242,7 @@ function filtre1(){
     myInner6 = myInner6 + '<h5 class="card-title">' + kutu[5].baslik + '</h5>';
     myInner6 = myInner6 + '<p class="card-text">' + kutu[5].bilgi+ '</p>';
     myInner6 = myInner6 + '</div>';
-    myInner6 = myInner6 + '<ul class="list-group list-group-flush"><li class="list-group-item">' + kutu[5].isim+ '</li><li class="list-group-item">' + kutu[5].soyisim+ '</li><li class="list-group-item">' + kutu[5].fiyat+ '</li></ul>';
+    myInner6 = myInner6 + '<ul class="list-group list-group-flush"><li class="list-group-item">' + '<a href="">' + kutu[5].isim+ '</a></li><li class="list-group-item">' + kutu[5].soyisim+ '</li><li class="list-group-item">' + kutu[5].fiyat+ '</li></ul>';
     myInner6 = myInner6 + '<div class="card-body"><button type="button" class="btn btn-primary">İlana Git</button></div></div>';
     document.getElementById('sil').innerHTML = myInner6;
     }
@@ -255,7 +255,7 @@ function filtre1(){
         myInner6 = myInner6 + '<h5 class="card-title">' + kutu[3].baslik + '</h5>';
         myInner6 = myInner6 + '<p class="card-text">' + kutu[3].bilgi+ '</p>';
         myInner6 = myInner6 + '</div>';
-        myInner6 = myInner6 + '<ul class="list-group list-group-flush"><li class="list-group-item">' + kutu[3].isim+ '</li><li class="list-group-item">' + kutu[3].soyisim+ '</li><li class="list-group-item">' + kutu[3].fiyat+ '</li></ul>';
+        myInner6 = myInner6 + '<ul class="list-group list-group-flush"><li class="list-group-item">' + '<a href="">' + kutu[3].isim+ '</a></li><li class="list-group-item">' + kutu[3].soyisim+ '</li><li class="list-group-item">' + kutu[3].fiyat+ '</li></ul>';
         myInner6 = myInner6 + '<div class="card-body"><button type="button" class="btn btn-primary">İlana Git</button></div></div>';
         document.getElementById('sil').innerHTML = myInner6;
         }
@@ -268,7 +268,7 @@ function filtre1(){
             myInner6 = myInner6 + '<h5 class="card-title">' + kutu[0].baslik + '</h5>';
             myInner6 = myInner6 + '<p class="card-text">' + kutu[0].bilgi+ '</p>';
             myInner6 = myInner6 + '</div>';
-            myInner6 = myInner6 + '<ul class="list-group list-group-flush"><li class="list-group-item">' + kutu[0].isim+ '</li><li class="list-group-item">' + kutu[0].soyisim+ '</li><li class="list-group-item">' + kutu[0].fiyat+ '</li></ul>';
+            myInner6 = myInner6 + '<ul class="list-group list-group-flush"><li class="list-group-item">' + '<a href="">' + kutu[0].isim+ '</a></li><li class="list-group-item">' + kutu[0].soyisim+ '</li><li class="list-group-item">' + kutu[0].fiyat+ '</li></ul>';
             myInner6 = myInner6 + '<div class="card-body"><button type="button" class="btn btn-primary">İlana Git</button></div></div>';
             document.getElementById('sil').innerHTML = myInner6;
             }
@@ -276,6 +276,58 @@ function filtre1(){
                 myInner6='';
                 
                 var myelem7=document.getElementById('sil');
-               myInner6=myInner6+'<div class="card"><div class="card-header">HATA</div><div class="card-body"><p class="card-text">ARADIĞINIZ KRİTERDE SONUÇ BULUNAMADI.</p></div>';
+               myInner6=myInner6+'<div class="card"><div class="card-header">HATA</div><div class="card-body"><p class="card-text">Aradığınız kriterlerde bir sonuç bulunamadı.</p></div>';
                 document.getElementById('sil').innerHTML = myInner6;
                 }
+
+                function filtre5(){
+                    myInner6='';
+                    
+                    var myelem7=document.getElementById('sil');
+                    myInner6 = myInner6 + '<div id="muzik" class="card" style="width: 20rem; height: 704px;"><img class="card-img-top" src="' + kutu[4].resim + '"/>';
+                    myInner6 = myInner6 + '<div class="card-body">';
+                    myInner6 = myInner6 + '<h5 class="card-title">' + kutu[4].baslik + '</h5>';
+                    myInner6 = myInner6 + '<p class="card-text">' + kutu[4].bilgi+ '</p>';
+                    myInner6 = myInner6 + '</div>';
+                    myInner6 = myInner6 + '<ul class="list-group list-group-flush"><li class="list-group-item">' + '<a href="">' + kutu[4].isim+ '</a></li><li class="list-group-item">' + kutu[4].soyisim+ '</li><li class="list-group-item">' + kutu[4].fiyat+ '</li></ul>';
+                    myInner6 = myInner6 + '<div class="card-body"><button type="button" class="btn btn-primary">İlana Git</button></div></div>';
+                    document.getElementById('sil').innerHTML = myInner6;
+                    }
+
+                    function filtre6(){
+                        myInner6='';
+                        
+                        var myelem7=document.getElementById('sil');
+                        myInner6 = myInner6 + '<div id="muzik" class="card" style="width: 20rem; height: 704px;"><img class="card-img-top" src="' + kutu[2].resim + '"/>';
+                        myInner6 = myInner6 + '<div class="card-body">';
+                        myInner6 = myInner6 + '<h5 class="card-title">' + kutu[2].baslik + '</h5>';
+                        myInner6 = myInner6 + '<p class="card-text">' + kutu[2].bilgi+ '</p>';
+                        myInner6 = myInner6 + '</div>';
+                        myInner6 = myInner6 + '<ul class="list-group list-group-flush"><li class="list-group-item">' + '<a href="">' + kutu[2].isim+ '</a></li><li class="list-group-item">' + kutu[2].soyisim+ '</li><li class="list-group-item">' + kutu[2].fiyat+ '</li></ul>';
+                        myInner6 = myInner6 + '<div class="card-body"><button type="button" class="btn btn-primary">İlana Git</button></div></div>';
+                        document.getElementById('sil').innerHTML = myInner6;
+                        }
+
+                        function filtre7(){
+                            myInner6='';
+                            
+                            var myelem7=document.getElementById('sil');
+                            myInner6 = myInner6 + '<div id="muzik" class="card" style="width: 20rem; height: 704px;"><img class="card-img-top" src="' + kutu[1].resim + '"/>';
+                            myInner6 = myInner6 + '<div class="card-body">';
+                            myInner6 = myInner6 + '<h5 class="card-title">' + kutu[1].baslik + '</h5>';
+                            myInner6 = myInner6 + '<p class="card-text">' + kutu[1].bilgi+ '</p>';
+                            myInner6 = myInner6 + '</div>';
+                            myInner6 = myInner6 + '<ul class="list-group list-group-flush"><li class="list-group-item">' + '<a href="">' + kutu[1].isim+ '</a></li><li class="list-group-item">' + kutu[1].soyisim+ '</li><li class="list-group-item">' + kutu[1].fiyat+ '</li></ul>';
+                            myInner6 = myInner6 + '<div class="card-body"><button type="button" class="btn btn-primary">İlana Git</button></div></div>';
+                            document.getElementById('sil').innerHTML = myInner6;
+                            }
+
+                            function filtre8(){
+                                myInner6='';
+                                
+                                var myelem7=document.getElementById('sil');
+                               myInner6=myInner6+'<div class="card"><div class="card-header">HATA</div><div class="card-body"><p class="card-text">Aradığınız kriterlerde bir sonuç bulunamadı.</p></div>';
+                                document.getElementById('sil').innerHTML = myInner6;
+                                }
+
+                             
