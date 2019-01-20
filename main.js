@@ -15,7 +15,7 @@ var kutu=[
         baslik: 'KODLAMA',
         bilgi:'Çok iyi kod yazabilirim. Öff varya efsaneyim bu işte beni alırsanız şirketiniz büyür, her türlü işi yaparım CSS HTML Java vs..',
         fiyat: '150TL',
-        isim: 'Ahmet Yılmaz',
+        isim: 'İBRAHİM CEYLAN',
         soyisim: '21.12.2018'
     },
     {
@@ -246,47 +246,47 @@ function filtre1(){
     myInner6 = myInner6 + '<div class="card-body"><button type="button" class="btn btn-primary">İlana Git</button></div></div>';
     document.getElementById('sil').innerHTML = myInner6;
     }
-    function filtre2(){
-        myInner6='';
+function filtre2(){
+    myInner6='';
         
-        var myelem7=document.getElementById('sil');
-        myInner6 = myInner6 + '<div id="muzik" class="card" style="width: 20rem; height: 704px;"><img class="card-img-top" src="' + kutu[3].resim + '"/>';
-        myInner6 = myInner6 + '<div class="card-body">';
-        myInner6 = myInner6 + '<h5 class="card-title">' + kutu[3].baslik + '</h5>';
-        myInner6 = myInner6 + '<p class="card-text">' + kutu[3].bilgi+ '</p>';
-        myInner6 = myInner6 + '</div>';
-        myInner6 = myInner6 + '<ul class="list-group list-group-flush"><li class="list-group-item">' + '<a href="">' + kutu[3].isim+ '</a></li><li class="list-group-item">' + kutu[3].soyisim+ '</li><li class="list-group-item">' + kutu[3].fiyat+ '</li></ul>';
-        myInner6 = myInner6 + '<div class="card-body"><button type="button" class="btn btn-primary">İlana Git</button></div></div>';
-        document.getElementById('sil').innerHTML = myInner6;
-        }
-        function filtre3(){
-            myInner6='';
-            
-            var myelem7=document.getElementById('sil');
-            myInner6 = myInner6 + '<div id="muzik" class="card" style="width: 20rem; height: 704px;"><img class="card-img-top" src="' + kutu[0].resim + '"/>';
-            myInner6 = myInner6 + '<div class="card-body">';
-            myInner6 = myInner6 + '<h5 class="card-title">' + kutu[0].baslik + '</h5>';
-            myInner6 = myInner6 + '<p class="card-text">' + kutu[0].bilgi+ '</p>';
-            myInner6 = myInner6 + '</div>';
-            myInner6 = myInner6 + '<ul class="list-group list-group-flush"><li class="list-group-item">' + '<a href="">' + kutu[0].isim+ '</a></li><li class="list-group-item">' + kutu[0].soyisim+ '</li><li class="list-group-item">' + kutu[0].fiyat+ '</li></ul>';
-            myInner6 = myInner6 + '<div class="card-body"><button type="button" class="btn btn-primary">İlana Git</button></div></div>';
-            document.getElementById('sil').innerHTML = myInner6;
-            }
-            function filtre4(){
-                myInner6='';
-                
-                var myelem7=document.getElementById('sil');
-               myInner6=myInner6+'<div class="card"><div class="card-header">HATA</div><div class="card-body"><p class="card-text">Aradığınız kriterlerde bir sonuç bulunamadı.</p></div>';
-                document.getElementById('sil').innerHTML = myInner6;
-                }
+    var myelem7=document.getElementById('sil');
+    myInner6 = myInner6 + '<div id="muzik" class="card" style="width: 20rem; height: 704px;"><img class="card-img-top" src="' + kutu[3].resim + '"/>';
+    myInner6 = myInner6 + '<div class="card-body">';
+    myInner6 = myInner6 + '<h5 class="card-title">' + kutu[3].baslik + '</h5>';
+    myInner6 = myInner6 + '<p class="card-text">' + kutu[3].bilgi+ '</p>';
+    myInner6 = myInner6 + '</div>';
+    myInner6 = myInner6 + '<ul class="list-group list-group-flush"><li class="list-group-item">' + '<a href="">' + kutu[3].isim+ '</a></li><li class="list-group-item">' + kutu[3].soyisim+ '</li><li class="list-group-item">' + kutu[3].fiyat+ '</li></ul>';
+    myInner6 = myInner6 + '<div class="card-body"><button type="button" class="btn btn-primary">İlana Git</button></div></div>';
+    document.getElementById('sil').innerHTML = myInner6;
+    }
+function filtre3(){
+    myInner6='';
+    
+    var myelem7=document.getElementById('sil');
+    myInner6 = myInner6 + '<div id="muzik" class="card" style="width: 20rem; height: 704px;"><img class="card-img-top" src="' + kutu[0].resim + '"/>';
+    myInner6 = myInner6 + '<div class="card-body">';
+    myInner6 = myInner6 + '<h5 class="card-title">' + kutu[0].baslik + '</h5>';
+    myInner6 = myInner6 + '<p class="card-text">' + kutu[0].bilgi+ '</p>';
+    myInner6 = myInner6 + '</div>';
+    myInner6 = myInner6 + '<ul class="list-group list-group-flush"><li class="list-group-item">' + '<a href="">' + kutu[0].isim+ '</a></li><li class="list-group-item">' + kutu[0].soyisim+ '</li><li class="list-group-item">' + kutu[0].fiyat+ '</li></ul>';
+    myInner6 = myInner6 + '<div class="card-body"><button type="button" class="btn btn-primary">İlana Git</button></div></div>';
+    document.getElementById('sil').innerHTML = myInner6;
+    }
+function filtre4(){
+    myInner6='';
+    
+    var myelem7=document.getElementById('sil');
+   myInner6=myInner6+'<div class="card"><div class="card-header">HATA</div><div class="card-body"><p class="card-text">Aradığınız kriterlerde bir sonuç bulunamadı.</p></div>';
+    document.getElementById('sil').innerHTML = myInner6;
+    }
 
-                function filtre5(){
-                    myInner6='';
+    function filtre5(){
+        myInner6='';
                     
-                    var myelem7=document.getElementById('sil');
-                    myInner6 = myInner6 + '<div id="muzik" class="card" style="width: 20rem; height: 704px;"><img class="card-img-top" src="' + kutu[4].resim + '"/>';
-                    myInner6 = myInner6 + '<div class="card-body">';
-                    myInner6 = myInner6 + '<h5 class="card-title">' + kutu[4].baslik + '</h5>';
+        var myelem7=document.getElementById('sil');
+        myInner6 = myInner6 + '<div id="muzik" class="card" style="width: 20rem; height: 704px;"><img class="card-img-top" src="' + kutu[4].resim + '"/>';
+        myInner6 = myInner6 + '<div class="card-body">';
+        myInner6 = myInner6 + '<h5 class="card-title">' + kutu[4].baslik + '</h5>';
                     myInner6 = myInner6 + '<p class="card-text">' + kutu[4].bilgi+ '</p>';
                     myInner6 = myInner6 + '</div>';
                     myInner6 = myInner6 + '<ul class="list-group list-group-flush"><li class="list-group-item">' + '<a href="">' + kutu[4].isim+ '</a></li><li class="list-group-item">' + kutu[4].soyisim+ '</li><li class="list-group-item">' + kutu[4].fiyat+ '</li></ul>';
@@ -329,5 +329,70 @@ function filtre1(){
                                myInner6=myInner6+'<div class="card"><div class="card-header">HATA</div><div class="card-body"><p class="card-text">Aradığınız kriterlerde bir sonuç bulunamadı.</p></div>';
                                 document.getElementById('sil').innerHTML = myInner6;
                                 }
+function getir(){
+    myInner6='';
+    
+    var myelem7=document.getElementById('sil');
+    myInner6 = myInner6 + '<div id="muzik" class="card" style="width: 20rem; height: 704px;"><img class="card-img-top" src="' + kutu[0].resim + '"/>';
+    myInner6 = myInner6 + '<div class="card-body">';
+    myInner6 = myInner6 + '<h5 class="card-title">' + kutu[0].baslik + '</h5>';
+    myInner6 = myInner6 + '<p class="card-text">' + kutu[0].bilgi+ '</p>';
+    myInner6 = myInner6 + '</div>';
+    myInner6 = myInner6 + '<ul class="list-group list-group-flush"><li class="list-group-item">' + '<a href="">' + kutu[0].isim+ '</a></li><li class="list-group-item">' + kutu[0].soyisim+ '</li><li class="list-group-item">' + kutu[0].fiyat+ '</li></ul>';
+    myInner6 = myInner6 + '<div class="card-body"><button type="button" class="btn btn-primary">İlana Git</button></div></div>';
+    document.getElementById('sil').innerHTML = myInner6;
+    //
+                    
+    var myelem7=document.getElementById('sil');
+    myInner6 = myInner6 + '<div id="code" class="card" style="width: 20rem; height: 704px;"><img class="card-img-top" src="' + kutu[1].resim + '"/>';
+    myInner6 = myInner6 + '<div class="card-body">';
+    myInner6 = myInner6 + '<h5 class="card-title">' + kutu[1].baslik + '</h5>';
+    myInner6 = myInner6 + '<p class="card-text">' + kutu[1].bilgi+ '</p>';
+    myInner6 = myInner6 + '</div>';
+    myInner6 = myInner6 + '<ul class="list-group list-group-flush"><li class="list-group-item">' + '<a href="">' + kutu[1].isim+ '</a></li><li class="list-group-item">' + kutu[1].soyisim+ '</li><li class="list-group-item">' + kutu[1].fiyat+ '</li></ul>';
+    myInner6 = myInner6 + '<div class="card-body"><button type="button" class="btn btn-primary">İlana Git</button></div></div>';
+    document.getElementById('sil').innerHTML = myInner6;
+    var myelem7=document.getElementById('sil');
+    myInner6 = myInner6 + '<div id="muzik" class="card" style="width: 20rem; height: 704px;"><img class="card-img-top" src="' + kutu[2].resim + '"/>';
+    myInner6 = myInner6 + '<div class="card-body">';
+    myInner6 = myInner6 + '<h5 class="card-title">' + kutu[2].baslik + '</h5>';
+    myInner6 = myInner6 + '<p class="card-text">' + kutu[2].bilgi+ '</p>';
+    myInner6 = myInner6 + '</div>';
+    myInner6 = myInner6 + '<ul class="list-group list-group-flush"><li class="list-group-item">' + '<a href="">' + kutu[2].isim+ '</a></li><li class="list-group-item">' + kutu[2].soyisim+ '</li><li class="list-group-item">' + kutu[2].fiyat+ '</li></ul>';
+    myInner6 = myInner6 + '<div class="card-body"><button type="button" class="btn btn-primary">İlana Git</button></div></div>';
+    document.getElementById('sil').innerHTML = myInner6;
+    var myelem7=document.getElementById('sil');
+    myInner6 = myInner6 + '<div id="muzik" class="card" style="width: 20rem; height: 704px;"><img class="card-img-top" src="' + kutu[3].resim + '"/>';
+    myInner6 = myInner6 + '<div class="card-body">';
+    myInner6 = myInner6 + '<h5 class="card-title">' + kutu[3].baslik + '</h5>';
+    myInner6 = myInner6 + '<p class="card-text">' + kutu[3].bilgi+ '</p>';
+    myInner6 = myInner6 + '</div>';
+    myInner6 = myInner6 + '<ul class="list-group list-group-flush"><li class="list-group-item">' + '<a href="">' + kutu[3].isim+ '</a></li><li class="list-group-item">' + kutu[3].soyisim+ '</li><li class="list-group-item">' + kutu[3].fiyat+ '</li></ul>';
+    myInner6 = myInner6 + '<div class="card-body"><button type="button" class="btn btn-primary">İlana Git</button></div></div>';
+    document.getElementById('sil').innerHTML = myInner6;
+    var myelem7=document.getElementById('sil');
+    myInner6 = myInner6 + '<div id="muzik" class="card" style="width: 20rem; height: 704px;"><img class="card-img-top" src="' + kutu[4].resim + '"/>';
+    myInner6 = myInner6 + '<div class="card-body">';
+    myInner6 = myInner6 + '<h5 class="card-title">' + kutu[4].baslik + '</h5>';
+    myInner6 = myInner6 + '<p class="card-text">' + kutu[4].bilgi+ '</p>';
+    myInner6 = myInner6 + '</div>';
+    myInner6 = myInner6 + '<ul class="list-group list-group-flush"><li class="list-group-item">' + '<a href="">' + kutu[4].isim+ '</a></li><li class="list-group-item">' + kutu[4].soyisim+ '</li><li class="list-group-item">' + kutu[4].fiyat+ '</li></ul>';
+    myInner6 = myInner6 + '<div class="card-body"><button type="button" class="btn btn-primary">İlana Git</button></div></div>';
+    document.getElementById('sil').innerHTML = myInner6;
+    var myelem7=document.getElementById('sil');
+    myInner6 = myInner6 + '<div id="muzik" class="card" style="width: 20rem; height: 704px;"><img class="card-img-top" src="' + kutu[5].resim + '"/>';
+    myInner6 = myInner6 + '<div class="card-body">';
+    myInner6 = myInner6 + '<h5 class="card-title">' + kutu[5].baslik + '</h5>';
+    myInner6 = myInner6 + '<p class="card-text">' + kutu[5].bilgi+ '</p>';
+    myInner6 = myInner6 + '</div>';
+    myInner6 = myInner6 + '<ul class="list-group list-group-flush"><li class="list-group-item">' + '<a href="">' + kutu[3].isim+ '</a></li><li class="list-group-item">' + kutu[5].soyisim+ '</li><li class="list-group-item">' + kutu[5].fiyat+ '</li></ul>';
+    myInner6 = myInner6 + '<div class="card-body"><button type="button" class="btn btn-primary">İlana Git</button></div></div>';
+    document.getElementById('sil').innerHTML = myInner6;
+
+
+}
+                                
+
+                                
 
                              
