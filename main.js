@@ -507,55 +507,55 @@ function genel(){
 function geribil(){
     var myinner='';
     var genelres=document.getElementById('icerik');
-    myinner=myinner+'<h3><li style="margin:25px;"> hiç bir geri bildirim bulunmamaktadır</li></h3>';
+    myinner=myinner+'<h3><li style="margin:25px;">Hiçbir geri bildirim bulunmamaktadır.</li></h3>';
     genelres.innerHTML=myinner; 
 }  
 function kullanici12(){
     var myinner='';
     var genelres=document.getElementById('icerik');
-    myinner=myinner+'<h3><li style="margin:25px;"> SİSTEME KAYITLI OLAN KULLANICI SAYISI= ' +user.length + '</li></h3>';
+    myinner=myinner+'<h3><li style="margin:25px;"> Sisteme kayıtlı olan kullanıcı sayısı: ' +user.length + '</li></h3>';
     genelres.innerHTML=myinner; 
 }
 function ban(){
     var myinner='';
     var genelres=document.getElementById('icerik');
-    myinner=myinner+'<h3><li style="margin:25px;"> SİSTEMDE BANLI OLAN KULLANICI SAYISI= ' +userban.length + '</li></h3>';
+    myinner=myinner+'<h3><li style="margin:25px;"> Sistemde banlı olan kullanıcı sayısı: ' +userban.length + '</li></h3>';
     genelres.innerHTML=myinner; 
 }
 function reklam(){
     var myinner='';
     var genelres=document.getElementById('icerik');
-    myinner=myinner+'<h3><li style="margin:25px;"> hiç bir reklam bulunmamaktadır</li></h3>';
+    myinner=myinner+'<h3><li style="margin:25px;">Hiçbir reklam bulunmamaktadır.</li></h3>';
     genelres.innerHTML=myinner; 
 }  
 function duyurular(){
     var myinner='';
     var genelres=document.getElementById('icerik');
-    myinner=myinner+'duyurular <input type="text" style="height:50px; margin:25px; width:400px;"> <button type="button" class="btn btn-secondary btn-lg">GÜNCELLE</button>' ;
+    myinner=myinner+'Duyuru Ekle:<input type="text" style="height:50px; margin:25px; width:400px;"> <button type="button" class="btn btn-secondary btn-lg">GÜNCELLE</button>' ;
     genelres.innerHTML=myinner; 
 } 
 function duyurular2(){
     var myinner='';
     var genelres=document.getElementById('icerik');
-    myinner=myinner+'hakkımızda <input type="text" style="height:50px; margin:25px; width:400px;"> <button type="button" class="btn btn-secondary btn-lg">GÜNCELLE</button>' ;
+    myinner=myinner+'Hakkımızda Düzenle:<input type="text" style="height:50px; margin:25px; width:400px;"> <button type="button" class="btn btn-secondary btn-lg">GÜNCELLE</button>' ;
     genelres.innerHTML=myinner; 
 }  
 function duyurular3(){
     var myinner='';
     var genelres=document.getElementById('icerik');
-    myinner=myinner+' bize ulaşın <input type="text" style="height:50px; margin:25px; width:400px;"> <button type="button" class="btn btn-secondary btn-lg">GÜNCELLE</button>' ;
+    myinner=myinner+'Bize Ulaşın Düzenle:<input type="text" style="height:50px; margin:25px; width:400px;"> <button type="button" class="btn btn-secondary btn-lg">GÜNCELLE</button>' ;
     genelres.innerHTML=myinner; 
 }  
 function duyurular4(){
     var myinner='';
     var genelres=document.getElementById('icerik');
-    myinner=myinner+' iletişim <input type="text" style="height:50px; margin:25px; width:400px;"> <button type="button" class="btn btn-secondary btn-lg">GÜNCELLE</button>' ;
+    myinner=myinner+' İletişim Düzenle:<input type="text" style="height:50px; margin:25px; width:400px;"> <button type="button" class="btn btn-secondary btn-lg">GÜNCELLE</button>' ;
     genelres.innerHTML=myinner; 
 }   
 function basla2(){
     var genelres = document.getElementById("icerik");
      var myinner10="";
-     myinner10=myinner10+'<h3><li style="margin:25px;"> HOŞGELDİNİZ '+ admin[0].ad +' - '+ admin[0].soyad +' </li></h3>';
+     myinner10=myinner10+'<h3><li style="margin:25px;"> HOŞGELDİNİZ! '+ admin[0].ad +' - '+ admin[0].soyad +' </li></h3>';
      genelres.innerHTML=myinner10; 
 }                        
 
