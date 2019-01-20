@@ -33,7 +33,7 @@
      Kullanıcı Adı:<br>
      <input id="kullanici"type="text" name='kullanıcı' style="border-radius: 8px;"><br>Şifre:<br>
      
-     <input id="sifre"style="border-radius: 8px;" type="password" name="şifre">
+     <input id="sifre"style="border-radius: 8px;" type="password" name="şifre" >
      <button onclick="girisyap()" type="button" class="btn btn-info" style="width:150px; margin-left: 5px; margin-top: 15px; margin-bottom: 7px;" style="border-radius: 8px;">Giriş Yap</button>  
      <a href="" style="font-size: 14px;"><p>Şifremi Unuttum</p></a>
      <a href="" style="font-size: 14px;">Hesaba Erişimim Yok</a>
@@ -43,9 +43,10 @@
     </div>
     <div class="orta" style="height: 1200px;">
         <div class="registerpop">
+          <form id="login">
             <img src="LOGO2.jpg" alt="" style="margin-top: 35px; height: 175px; width: 200px; border-radius: 50px; border: 5px solid grey;"><p><b><h2>HESAP OLUŞTUR</h2></b></p>
-         <input type="text" class="form-control" placeholder="Ad" style="width: 350px; margin-top: 55px; margin-left: 30%;">
-                <input type="text" class="form-control" placeholder="Soyad" style="width: 350px; margin-top: 15px; margin-left: 30%;">
+         <input type="text" class="form-control" id="validationDefault01" placeholder="Ad" style="width: 350px; margin-top: 55px; margin-left: 30%;">
+                <input type="text" class="form-control" id="validationServer02" placeholder="Soyad" style="width: 350px; margin-top: 15px; margin-left: 30%;">
              
               <div class="input-group mb-3" style="margin-top: 15px; width:350px; margin-left: 30%;">
                 <input type="text" style="height: 38px;" class="form-control" placeholder="Kullanıcı Adı" aria-label="Recipient's username" aria-describedby="basic-addon2">
@@ -55,7 +56,7 @@
               </div>
               <div class="form-group">
                 
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-Posta" style="margin-top: 10px; width:350px; margin-left: 30%;">
+                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="E-Posta" style="margin-top: 10px; width:350px; margin-left: 30%;">
 
               </div>
               <input type="password" class="form-control" placeholder="Şifre" style="width: 350px; margin-top: 15px; margin-left: 30%;">
@@ -148,7 +149,8 @@
                 <input class="form-check-input position-static" type="checkbox" name="blankRadio" id="blankRadio1" value="option1" aria-label="...">     Yeni haberlerden beni haberdar et.
               </div>
              <p><button type="submit" class="btn btn-primary" style="margin-top: 50px; width: 130px; height: 50px;">KAYIT OL</button></p>
-        </div>
+            </form>
+            </div>
     </div>
     <div class="alt">
         <div class="duyuru">

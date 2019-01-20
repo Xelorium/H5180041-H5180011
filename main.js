@@ -66,6 +66,7 @@ function basla(){
     var myElem5 = document.getElementById("reklam");
     var myElem6 = document.getElementById("photoshop");
     
+    
     var myInner = '';
     var myInner2='';
     var myInner3='';
@@ -167,6 +168,25 @@ var user=[
         sifre:'987asdfg'
     }
 ];
+var userban=[{
+nick:'jckl',
+ad:'serkan',
+soyad:'çakal',
+sifre:'tokatlı6034'
+},
+{nick:'gastamonlu',
+ad:'ismayil',
+soyad:'yıldız',
+sifre:'asdfg'
+}
+];
+var admin=[{
+    nick:'admin',
+    ad:'MUHAMMED',
+    soyad:'FURKAN',
+    sifre:'mufu'
+}
+];
    
 function girisyap(){
      var tarih=new Date()
@@ -191,6 +211,13 @@ function girisyap(){
        
 
     }
+    for (let index = 0; index < user.length; index++) {
+        if(kullanici==admin[index].nick&&sifre1==admin[index].sifre){
+            window.location = "adminpaneli.html"
+        }
+    }
+
+    
 
 }
 
@@ -470,7 +497,67 @@ function pop4(){
         modal.style.display = "none";
     }
     
-}                              
+} 
+function genel(){
+    var myinner='';
+    var genelres=document.getElementById('icerik');
+    myinner=myinner+'<img src="genel.jpg" style="margin:25px">;';
+    genelres.innerHTML=myinner;    
+} 
+function geribil(){
+    var myinner='';
+    var genelres=document.getElementById('icerik');
+    myinner=myinner+'<h3><li style="margin:25px;"> hiç bir geri bildirim bulunmamaktadır</li></h3>';
+    genelres.innerHTML=myinner; 
+}  
+function kullanici12(){
+    var myinner='';
+    var genelres=document.getElementById('icerik');
+    myinner=myinner+'<h3><li style="margin:25px;"> SİSTEME KAYITLI OLAN KULLANICI SAYISI= ' +user.length + '</li></h3>';
+    genelres.innerHTML=myinner; 
+}
+function ban(){
+    var myinner='';
+    var genelres=document.getElementById('icerik');
+    myinner=myinner+'<h3><li style="margin:25px;"> SİSTEMDE BANLI OLAN KULLANICI SAYISI= ' +userban.length + '</li></h3>';
+    genelres.innerHTML=myinner; 
+}
+function reklam(){
+    var myinner='';
+    var genelres=document.getElementById('icerik');
+    myinner=myinner+'<h3><li style="margin:25px;"> hiç bir reklam bulunmamaktadır</li></h3>';
+    genelres.innerHTML=myinner; 
+}  
+function duyurular(){
+    var myinner='';
+    var genelres=document.getElementById('icerik');
+    myinner=myinner+'duyurular <input type="text" style="height:50px; margin:25px; width:400px;"> <button type="button" class="btn btn-secondary btn-lg">GÜNCELLE</button>' ;
+    genelres.innerHTML=myinner; 
+} 
+function duyurular2(){
+    var myinner='';
+    var genelres=document.getElementById('icerik');
+    myinner=myinner+'hakkımızda <input type="text" style="height:50px; margin:25px; width:400px;"> <button type="button" class="btn btn-secondary btn-lg">GÜNCELLE</button>' ;
+    genelres.innerHTML=myinner; 
+}  
+function duyurular3(){
+    var myinner='';
+    var genelres=document.getElementById('icerik');
+    myinner=myinner+' bize ulaşın <input type="text" style="height:50px; margin:25px; width:400px;"> <button type="button" class="btn btn-secondary btn-lg">GÜNCELLE</button>' ;
+    genelres.innerHTML=myinner; 
+}  
+function duyurular4(){
+    var myinner='';
+    var genelres=document.getElementById('icerik');
+    myinner=myinner+' iletişim <input type="text" style="height:50px; margin:25px; width:400px;"> <button type="button" class="btn btn-secondary btn-lg">GÜNCELLE</button>' ;
+    genelres.innerHTML=myinner; 
+}   
+function basla2(){
+    var genelres = document.getElementById("icerik");
+     var myinner10="";
+     myinner10=myinner10+'<h3><li style="margin:25px;"> HOŞGELDİNİZ '+ admin[0].ad +' - '+ admin[0].soyad +' </li></h3>';
+     genelres.innerHTML=myinner10; 
+}                        
 
                                 
 
