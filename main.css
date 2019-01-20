@@ -74,10 +74,6 @@ margin-top: 5%;
     text-align: center;
 }
 
-.list-group a{
-   
-}
-
 
 
 .input-group{
@@ -116,11 +112,14 @@ margin-top: 5%;
 }
 
 /* Kapat Düğmesi */
-.close {
+.modal .close {
+    position: absolute;
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
+    margin-left: 95%;
+    margin-top: -21px;
 }
 
 .close:hover,
@@ -128,4 +127,15 @@ margin-top: 5%;
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+.registerpop{
+    margin-top: 75px;
+    height: 1000px;
+    width: 50%;
+    float: left;
+    margin-left: 25%;
+    text-align: center;
+    border: 12px solid black;
+    border-radius: 11px;
 }

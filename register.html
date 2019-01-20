@@ -42,20 +42,168 @@
     </div>
     <div class="orta" style="height: 1200px;">
         <div class="registerpop">
-            <img src="LOGO2.jpg" alt="" style="margin-top: 35px; height: 175px; width: 200px;"><p><b><h2>HESAP OLUŞTUR</h2></b></p>
-            
-              
-                <input type="text" class="form-control" placeholder="Ad" style="width: 350px; margin-top: 55px;">
-                <input type="text" class="form-control" placeholder="Soyad" style="width: 350px;">
+            <img src="LOGO2.jpg" alt="" style="margin-top: 35px; height: 175px; width: 200px; border-radius: 50px; border: 5px solid grey;"><p><b><h2>HESAP OLUŞTUR</h2></b></p>
+         <input type="text" class="form-control" placeholder="Ad" style="width: 350px; margin-top: 55px; margin-left: 30%;">
+                <input type="text" class="form-control" placeholder="Soyad" style="width: 350px; margin-top: 15px; margin-left: 30%;">
              
-              <div class="input-group mb-3" style="margin-top: 50px; width:350px;">
-                <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+              <div class="input-group mb-3" style="margin-top: 15px; width:350px; margin-left: 30%;">
+                <input type="text" style="height: 38px;" class="form-control" placeholder="Kullanıcı Adı" aria-label="Recipient's username" aria-describedby="basic-addon2">
                 <div class="input-group-append">
-                  <button class="btn btn-outline-secondary" type="button">Button</button>
+                  <button class="btn btn-outline-success" style="height: 38px;" type="button">Kontrol Et</button>
+                  </div>
+              </div>
+              <div class="form-group">
+                
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-Posta" style="margin-top: 10px; width:350px; margin-left: 30%;">
+
+              </div>
+              <input type="password" class="form-control" placeholder="Şifre" style="width: 350px; margin-top: 15px; margin-left: 30%;">
+              <input type="password" class="form-control" placeholder="Şifre Tekrar" style="width: 350px; margin-top: 15px; margin-left: 30%;">
+              
+              <div class="input-group" style="margin-top: 15px; width: 350px; margin-left: 30%;">
+                <div class="custom-file">
+                  <input type="file" class="custom-file-input" id="inputGroupFile04">
+                  <label class="custom-file-label" for="inputGroupFile04">Profil Resmi Seç</label>
+                </div>
+                <div class="input-group-append">
+                  <button class="btn btn-outline-success" type="button" style="height: 38px;">Yükle</button>
                 </div>
               </div>
               
+              <div class="input-group mb-3" style="width: 350px; margin-left: 30%;">
+                <div class="input-group-prepend">
+                  
+                </div>
+                <select class="custom-select" id="inputGroupSelect01">
+                  <option selected>Gün</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                  <option value="13">13</option>
+                  <option value="14">14</option>
+                  <option value="15">15</option>
+                  <option value="16">16</option>
+                  <option value="17">17</option>
+                  <option value="18">18</option>
+                  <option value="19">19</option>
+                  <option value="20">20</option>
+                  <option value="21">21</option>
+                  <option value="22">22</option>
+                  <option value="23">23</option>
+                  <option value="24">24</option>
+                  <option value="25">25</option>
+                  <option value="26">26</option>
+                  <option value="27">27</option>
+                  <option value="28">28</option>
+                  <option value="29">29</option>
+                  <option value="30">30</option>
+                  <option value="31">31</option>
+                </select>
+                <select class="custom-select" id="inputGroupSelect01">
+                    <option selected>Ay</option>
+                    <option value="1">Ocak</option>
+                    <option value="2">Şubat</option>
+                    <option value="3">Mart</option>
+                    <option value="4">Nisan</option>
+                    <option value="5">Mayıs</option>
+                    <option value="6">Haziran</option>
+                    <option value="7">Temmuz</option>
+                    <option value="8">Ağustos</option>
+                    <option value="9">Eylül</option>
+                    <option value="10">Ekim</option>
+                    <option value="11">Kasım</option>
+                    <option value="12">Aralık</option>
+              </select>
+                    <select class="custom-select" id="inputGroupSelect01">
+                        <option selected>Yıl</option>
+                        <option value="1">2000</option>
+                        <option value="2">1999</option>
+                        <option value="3">1998</option>
+                    </select>
+                    
+              </div>
+              
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">Bay</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">Bayan</label>
+              </div>
+               <div class="form-check" style="margin-top: 15px;">
+                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="...">     Şartları okudum ve kabul ediyorum.
+              </div>
+              <div class="form-check">
+                <input class="form-check-input position-static" type="checkbox" name="blankRadio" id="blankRadio1" value="option1" aria-label="...">     Yeni haberlerden beni haberdar et.
+              </div>
+             <p><button type="submit" class="btn btn-primary" style="margin-top: 50px; width: 130px; height: 50px;">KAYIT OL</button></p>
         </div>
+    </div>
+    <div class="alt">
+        <div class="duyuru">
+     <button onclick="pop()" id="myBtn"style="margin-left:22.5%; width: 219px;" type="button" class="btn btn-danger btn-lg">Duyurular</button>
+     <div id="myModal" class="modal">
+             <div class="modal-content">
+               <span class="close">&times;</span>
+               <p>20.01.2019</p>
+               <p>SİTE NERDEYSE BİTİYOR</p>
+               <p>KAYIT OLMA 20.02.2019 TARİHİNE KADAR ÇALIŞMIYACAKTIR</p>
+               
+ 
+             </div>
+           </div>
+           
+     <button id="myBtn2"onclick="pop2()"style="margin-left:50px; width: 219px;" type="button" class="btn btn-danger btn-lg">Hakkımızda</button>
+     <div id="myModal2" class="modal">
+             <div class="modal-content">
+               <span class="close">&times;</span>
+               <p>şirkette hangi pozisyonda olduklarını bu alana ekleyerek, kişisel bilgiler paylaşabilirsiniz.</p>
+               
+               
+ 
+             </div>
+           </div>
+     <button id="myBtn3"onclick="pop3()" style="margin-left:50px; width: 219px;"type="button" class="btn btn-danger btn-lg">Sıkça Sorulan Sorular</button>
+     <div id="myModal3" class="modal">
+             <div class="modal-content">
+               <span class="close">&times;</span>
+               <a>Nasıl çalışır?</a>
+               <a>Bionluk nedir?</a>
+               <a>Hizmet Satın Almak</a>
+               <a>Freelancer Olmak/Satış Yapmak</a>
+               
+               
+ 
+             </div>
+           </div>
+     <button id="myBtn4"onclick="pop4()"  style="margin-left:50px; width: 219px;"type="button" class="btn btn-danger btn-lg">Bize Ulaşın</button>
+     <div id="myModal4" class="modal">
+             <div class="modal-content">
+               <span class="close">&times;</span>
+               <a>pazartesi salı çarşamba ve perşembe günleri okuldayız</a>
+               
+               
+               
+ 
+             </div>
+           </div>
+ </div>
+ <div class="sosyal"> 
+    <a href="" style="margin-left:43%"><img src="fbook.png" alt="" style="height: 30px; width: 30px;"></a>
+    <a href=""><img src="twit.png" alt="" style="height: 30px; width: 30px;"></a>
+    <a href=""><img src="insta.png" alt="" style="height: 30px; width: 30px;"></a>
+    <a href=""><img src="gplus.png" alt="" style="height: 35px; width: 35px;"></a>
+    </div>
     </div>
 </body>
 </html>

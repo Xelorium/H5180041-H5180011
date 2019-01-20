@@ -15,7 +15,7 @@ var kutu=[
         baslik: 'KODLAMA',
         bilgi:'Çok iyi kod yazabilirim. Öff varya efsaneyim bu işte beni alırsanız şirketiniz büyür, her türlü işi yaparım CSS HTML Java vs..',
         fiyat: '150TL',
-        isim: 'İBRAHİM CEYLAN',
+        isim: 'İbrahim Ceylan',
         soyisim: '21.12.2018'
     },
     {
@@ -385,7 +385,7 @@ function getir(){
     myInner6 = myInner6 + '<h5 class="card-title">' + kutu[5].baslik + '</h5>';
     myInner6 = myInner6 + '<p class="card-text">' + kutu[5].bilgi+ '</p>';
     myInner6 = myInner6 + '</div>';
-    myInner6 = myInner6 + '<ul class="list-group list-group-flush"><li class="list-group-item">' + '<a href="">' + kutu[3].isim+ '</a></li><li class="list-group-item">' + kutu[5].soyisim+ '</li><li class="list-group-item">' + kutu[5].fiyat+ '</li></ul>';
+    myInner6 = myInner6 + '<ul class="list-group list-group-flush"><li class="list-group-item">' + '<a href="">' + kutu[5].isim+ '</a></li><li class="list-group-item">' + kutu[5].soyisim+ '</li><li class="list-group-item">' + kutu[5].fiyat+ '</li></ul>';
     myInner6 = myInner6 + '<div class="card-body"><button type="button" class="btn btn-primary">İlana Git</button></div></div>';
     document.getElementById('sil').innerHTML = myInner6;
 
