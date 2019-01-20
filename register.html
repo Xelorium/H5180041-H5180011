@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MUFU - Kayıt Ol</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="jquery-3.3.1.js"></script>
+</head>
+<body onload="basla()">
+    <div class="yukar"> 
+        
+        <nav class="navbar navbar-light bg-light justify-content-between">
+            <a href="main.html"class="navbar-brand"><img src="LOGO2.jpg" alt="" style="margin-left: 15%;"></a>
+            <form class="form-inline">
+                <input id="kayip"class="form-control mr-sm-2" type="search" placeholder="Site İçi Arama" aria-label="Search">
+                <div  id="kayip2"class="btn btn-outline-success my-2 my-sm-0" type="submit">Ara</div>
+                <div onclick="ara()" class="btn btn-outline-success my-2 my-sm-0" type="submit"><img src="magnifier.png" style="height: 20px; width: 20px;"></div>
+              </form>
+             <div id="girisyap1" class="kayıtt"> 
+               <button onclick="giris()"type="button" class="btn btn-info" style="width:150px; margin-left: 40px; margin-top:20px;">Giriş Yap</button><br>
+               <button type="button" class="btn btn-success" style="margin-top:5px; margin-left:32%">Kayıt Ol</button>
+             </div>
+         </nav>
+      </div>
+      <div class="yukari-orta">
+        
+    <div class="kayit">
+     Kullanıcı Adı:<br>
+     <input id="kullanici"type="text" name='kullanıcı' style="border-radius: 8px;"><br>Şifre:<br>
+     
+     <input id="sifre"style="border-radius: 8px;" type="password" name="şifre">
+     <button onclick="girisyap()" type="button" class="btn btn-info" style="width:150px; margin-left: 5px; margin-top: 15px; margin-bottom: 7px;" style="border-radius: 8px;">Giriş Yap</button>  
+     <a href="" style="font-size: 14px;"><p>Şifremi Unuttum</p></a>
+     <a href="" style="font-size: 14px;">Hesaba Erişimim Yok</a>
+     
+ 
+    </div>
+    </div>
+    <div class="orta" style="height: 1200px;">
+        <div class="registerpop">
+            <img src="LOGO2.jpg" alt="" style="margin-top: 35px; height: 175px; width: 200px;"><p><b><h2>HESAP OLUŞTUR</h2></b></p>
+            
+              
+                <input type="text" class="form-control" placeholder="Ad" style="width: 350px; margin-top: 55px;">
+                <input type="text" class="form-control" placeholder="Soyad" style="width: 350px;">
+             
+              <div class="input-group mb-3" style="margin-top: 50px; width:350px;">
+                <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary" type="button">Button</button>
+                </div>
+              </div>
+              
+        </div>
+    </div>
+</body>
+</html>
