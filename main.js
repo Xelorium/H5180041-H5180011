@@ -391,7 +391,86 @@ function getir(){
 
 
 }
-                                
+function pop(){
+    var modal = document.getElementById('myModal');
+
+    
+    var btn = document.getElementById("myBtn");
+    
+    
+    var span = document.getElementsByClassName("close")[0];
+    
+    
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+    
+    
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+    
+}
+function pop2(){
+    var modal = document.getElementById('myModal2');
+
+    
+    var btn = document.getElementById("myBtn2");
+    
+   
+    var span = document.getElementsByClassName("close")[1];
+    
+   
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+    
+    
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+    
+}  
+function pop3(){
+    var modal = document.getElementById('myModal3');
+
+    
+    var btn = document.getElementById("myBtn3");
+    
+   
+    var span = document.getElementsByClassName("close")[2];
+    
+   
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+    
+    
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+    
+} 
+function pop4(){
+    var modal = document.getElementById('myModal4');
+
+    
+    var btn = document.getElementById("myBtn4");
+    
+   
+    var span = document.getElementsByClassName("close")[3];
+    
+   
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+    
+    
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+    
+}                              
 
                                 
 
