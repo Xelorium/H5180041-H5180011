@@ -169,14 +169,14 @@ var user=[
     }
 ];
 var userban=[{
-nick:'jckl',
-ad:'serkan',
-soyad:'çakal',
+nick:'jackal6060',
+ad:'Serkan',
+soyad:'Çakal',
 sifre:'tokatlı6034'
 },
-{nick:'gastamonlu',
-ad:'ismayil',
-soyad:'yıldız',
+{nick:'gastamonlu_5',
+ad:'İsmail',
+soyad:'Yıldız',
 sifre:'asdfg'
 }
 ];
@@ -511,15 +511,21 @@ function geribil(){
     genelres.innerHTML=myinner; 
 }  
 function kullanici12(){
+    
+        
+        
+    
     var myinner='';
     var genelres=document.getElementById('icerik');
     myinner=myinner+'<h3><li style="margin:25px;"> Sisteme kayıtlı olan kullanıcı sayısı: ' +user.length + '</li></h3>';
+    for (let index = 0; index < user.length; index++) {
+        myinner=myinner+'<h3><li style="margin:25px;"> Sisteme kayıtlı olan kullanıcı ismi: ' +user[index].nick + '</li></h3>';}
     genelres.innerHTML=myinner; 
 }
 function ban(){
     var myinner='';
     var genelres=document.getElementById('icerik');
-    myinner=myinner+'<h3><li style="margin:25px;"> Sistemde banlı olan kullanıcı sayısı: ' +userban.length + '</li></h3>';
+    myinner=myinner+'<h3><li style="margin:25px;"> Sistemde banlı olan kullanıcı sayısı: ' +userban.length + '<br><br> Kullanıcı adı: ' + userban[0].nick + '<br><br> Kullanıcı adı: ' + userban[1].nick  + '</li></h3>';
     genelres.innerHTML=myinner; 
 }
 function reklam(){
